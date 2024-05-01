@@ -1,0 +1,29 @@
+{
+  "product": [
+    {
+      "chair": [
+        {
+          "name": "Reading Chairs",
+          "img": "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "price": 15000,
+          "description": "This is a nice reading chair.",
+          "rating": 4.8
+        },
+        {
+          "name": "Sleek Bar Stools",
+          "img": "https://images.unsplash.com/photo-1519947486511-46149fa0a254?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8U2xlZWslMjBCYXIlMjBjaGFpcnxlbnwwfHwwfHx8MA%3D%3D",
+          "price": 12000,
+          "description": "This is a soft nice chair.",
+          "rating": 4.5
+        },
+        {
+          "name": "Elegant Dining Chair",
+          "img": "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RWxlZ2FudCUyMERpbmluZyUyMENoYWlyfGVufDB8fDB8fHww",
+          "price": 16000,
+          "description": "This is a nice comfortable chair.",
+          "rating": 4.2
+        }
+      ]
+    }
+  ]
+}

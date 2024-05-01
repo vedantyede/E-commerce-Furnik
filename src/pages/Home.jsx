@@ -9,14 +9,14 @@ const Home = () => {
 
   return (
     <div>
-      <div className="">
-        <Card2 />
-      </div>
       {/* <div className="flex flex-wrap justify-center w-full">
+        <Card2 />
+      </div> */}
+      <div className="flex flex-wrap justify-center w-full">
         {items.map((item) => (
           <Card2 data={item} key={item.title} />
         ))}
-      </div> */}
+      </div>
       <div className="flex flex-wrap justify-center w-full">
         {chairs.map((item) => (
           <Card data={item} key={item.name} />

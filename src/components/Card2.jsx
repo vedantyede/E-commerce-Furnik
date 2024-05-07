@@ -1,8 +1,7 @@
-import chair1 from "../assets/chair1.png";
 
 const Card2 = ({data}) => {
   return (
-    <div>
+    <div className="hidden sm:flex">
       <div className="bg-green-100 flex flex-col rounded-lg h-56 m-4">
         <div className=" pl-10 mt-10">
           <div className="text-amber-900 p-1">
@@ -11,9 +10,9 @@ const Card2 = ({data}) => {
           <div className="overflow-hidden text-xs text-slate-500 p-1 w-72 font-thin">
             {data.description}
           </div>
-          <div className="text-xs underline p-1">VIEW NOW</div>
+          <div className="text-xs underline p-1 cursor-pointer">VIEW NOW</div>
         </div>
-        <div className="ml-72 -mt-28">
+        <div className="cursor-pointer ml-72 -mt-28">
           <img className="h-60 hover:h-64" src={data.image} alt="" />
         </div>
       </div>

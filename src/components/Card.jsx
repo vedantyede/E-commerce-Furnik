@@ -15,7 +15,7 @@ const Card = ({ data }) => {
         </div>
       </div>
       <div className="font-semibold h-6 overflow-hidden">{data.name}</div>
-      <div className="text-slate-500 font-sans overflow-hidden h-4 text-xs">
+      <div className="text-slate-500 font-sans overflow-hidden h-4 text-xs max-w-60">
         {data.description}
       </div>
       <div className="text-slate-800 flex">

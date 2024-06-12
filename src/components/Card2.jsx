@@ -12,8 +12,8 @@ const Card2 = ({data}) => {
           </div>
           <div className="text-xs underline p-1 cursor-pointer">VIEW NOW</div>
         </div>
-        <div className="cursor-pointer ml-72 -mt-28">
-          <img className="h-60 hover:h-64" src={data.image} alt="" />
+        <div className="transform cursor-pointer ml-72 -mt-28 transition duration-500 hover:scale-110">
+          <img className="h-60" src={data.image} alt="" />
         </div>
       </div>
     </div>

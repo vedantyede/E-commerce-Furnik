@@ -1,4 +1,9 @@
+import { useCart } from "../context/Context";
+
 const Card = ({ data }) => {
+
+  const {addtoCart} = useCart();
+
   return (
     <div className="flex flex-col justify-center rounded-lg min-h-96 min-w-52 m-4">
       <div className="flex flex-col items-center">
@@ -8,7 +13,7 @@ const Card = ({ data }) => {
             src={data.img}
             alt=""
           />
-          <div className="absolute bottom-0 px-8 mb-3 py-2 rounded-full text-white opacity-80 bg-slate-800 group-hover:flex hidden cursor-pointer">
+          <div onClick={()=>addtoCart(data)} className="absolute bottom-0 px-8 mb-3 py-2 rounded-full text-white opacity-80 bg-slate-800 group-hover:flex hidden cursor-pointer">
             <span className="material-symbols-outlined">shopping_bag</span>
             <span className="">Add to Cart</span>
           </div>

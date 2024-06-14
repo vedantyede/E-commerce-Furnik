@@ -28,32 +28,32 @@
         },
         {
           "id": "p4",
-          "name": "Reading Chairs",
-          "img": "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "name": "Home office comfy chair",
+          "img": "https://images.unsplash.com/photo-1592078615290-033ee584e267?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
           "price": 15000,
           "description": "This is a nice reading chair.",
           "rating": 4.8
         },
         {
           "id": "p5",
-          "name": "Sleek Bar Stools",
-          "img": "https://images.unsplash.com/photo-1519947486511-46149fa0a254?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8U2xlZWslMjBCYXIlMjBjaGFpcnxlbnwwfHwwfHx8MA%3D%3D",
+          "name": "Yellow Reading Chair",
+          "img": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?q=80&w=1916&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
           "price": 12000,
           "description": "This is a soft nice chair.",
           "rating": 4.5
         },
         {
           "id": "p6",
-          "name": "Elegant Dining Chair",
-          "img": "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RWxlZ2FudCUyMERpbmluZyUyMENoYWlyfGVufDB8fDB8fHww",
+          "name": "White Reading Chair",
+          "img": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
           "price": 16000,
           "description": "This is a nice comfortable chair.",
           "rating": 4.2
         },
         {
           "id": "p7",
-          "name": "Reading Chairs",
-          "img": "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "name": "Reading Stool and Chairs",
+          "img": "https://images.unsplash.com/photo-1550226891-ef816aed4a98?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
           "price": 15000,
           "description": "This is a nice reading chair.",
           "rating": 4.8
@@ -68,56 +68,56 @@
         },
         {
           "id": "p9",
-          "name": "Elegant Dining Chair",
-          "img": "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RWxlZ2FudCUyMERpbmluZyUyMENoYWlyfGVufDB8fDB8fHww",
+          "name": "Chair Yellow",
+          "img": "https://images.unsplash.com/photo-1551298370-9d3d53740c72?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
           "price": 16000,
           "description": "This is a nice comfortable chair.",
           "rating": 4.2
         },
         {
           "id": "p10",
-          "name": "Reading Chairs",
-          "img": "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "name": "Long Stool",
+          "img": "https://images.unsplash.com/photo-1503602642458-232111445657?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
           "price": 15000,
           "description": "This is a nice reading chair.",
           "rating": 4.8
         },
         {
           "id": "p11",
-          "name": "Sleek Bar Stools",
-          "img": "https://images.unsplash.com/photo-1519947486511-46149fa0a254?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8U2xlZWslMjBCYXIlMjBjaGFpcnxlbnwwfHwwfHx8MA%3D%3D",
+          "name": "Siting table",
+          "img": "https://images.unsplash.com/photo-1552324190-9e86fa095c4a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
           "price": 12000,
           "description": "This is a soft nice chair.",
           "rating": 4.5
         },
         {
           "id": "p12",
-          "name": "Elegant Dining Chair",
-          "img": "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RWxlZ2FudCUyMERpbmluZyUyMENoYWlyfGVufDB8fDB8fHww",
+          "name": "Elegant white Chair",
+          "img": "https://images.unsplash.com/photo-1580707514474-c9e5b3f02505?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
           "price": 16000,
           "description": "This is a nice comfortable chair.",
           "rating": 4.2
         },
         {
           "id": "p13",
-          "name": "Reading Chairs",
-          "img": "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "name": "Old style Chairs",
+          "img": "https://images.unsplash.com/photo-1580479929210-07eae66cf997?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
           "price": 15000,
           "description": "This is a nice reading chair.",
           "rating": 4.8
         },
         {
           "id": "p14",
-          "name": "Sleek Bar Stools",
-          "img": "https://images.unsplash.com/photo-1519947486511-46149fa0a254?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8U2xlZWslMjBCYXIlMjBjaGFpcnxlbnwwfHwwfHx8MA%3D%3D",
+          "name": "Relax Chair",
+          "img": "https://images.unsplash.com/photo-1617364852223-75f57e78dc96?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
           "price": 12000,
           "description": "This is a soft nice chair.",
           "rating": 4.5
         },
         {
           "id": "p15",
-          "name": "Elegant Dining Chair",
-          "img": "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RWxlZ2FudCUyMERpbmluZyUyMENoYWlyfGVufDB8fDB8fHww",
+          "name": "Old style Green Chairs",
+          "img": "https://images.unsplash.com/photo-1598300056393-4aac492f4344?q=80&w=2034&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
           "price": 16000,
           "description": "This is a nice comfortable chair.",
           "rating": 4.2
@@ -132,32 +132,32 @@
         },
         {
           "id": "p17",
-          "name": "Sleek Bar Stools",
-          "img": "https://images.unsplash.com/photo-1519947486511-46149fa0a254?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8U2xlZWslMjBCYXIlMjBjaGFpcnxlbnwwfHwwfHx8MA%3D%3D",
+          "name": "Minimal Relax Chair",
+          "img": "https://images.unsplash.com/photo-1579656592043-a20e25a4aa4b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
           "price": 12000,
           "description": "This is a soft nice chair.",
           "rating": 4.5
         },
         {
           "id": "p18",
-          "name": "Elegant Dining Chair",
-          "img": "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RWxlZ2FudCUyMERpbmluZyUyMENoYWlyfGVufDB8fDB8fHww",
+          "name": "Royal Chair",
+          "img": "https://images.unsplash.com/photo-1601366533287-5ee4c763ae4e?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
           "price": 16000,
           "description": "This is a nice comfortable chair.",
           "rating": 4.2
         },
         {
           "id": "p19",
-          "name": "Reading Chairs",
-          "img": "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "name": "Elegant Minimal Chair",
+          "img": "https://plus.unsplash.com/premium_photo-1682582245151-aa44d698771f?q=80&w=1978&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
           "price": 15000,
           "description": "This is a nice reading chair.",
           "rating": 4.8
         },
         {
           "id": "p20",
-          "name": "Sleek Bar Stools",
-          "img": "https://images.unsplash.com/photo-1519947486511-46149fa0a254?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8U2xlZWslMjBCYXIlMjBjaGFpcnxlbnwwfHwwfHx8MA%3D%3D",
+          "name": "Home Comfort Chair",
+          "img": "https://images.unsplash.com/photo-1506898667547-42e22a46e125?q=80&w=1906&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
           "price": 12000,
           "description": "This is a soft nice chair.",
           "rating": 4.5
@@ -172,72 +172,72 @@
         },
         {
           "id": "p22",
-          "name": "Reading Chairs",
-          "img": "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "name": "Yellow Elegent Chair",
+          "img": "https://images.unsplash.com/photo-1432249339392-2f754cb22105?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
           "price": 15000,
           "description": "This is a nice reading chair.",
           "rating": 4.8
         },
         {
           "id": "p23",
-          "name": "Sleek Bar Stools",
-          "img": "https://images.unsplash.com/photo-1519947486511-46149fa0a254?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8U2xlZWslMjBCYXIlMjBjaGFpcnxlbnwwfHwwfHx8MA%3D%3D",
+          "name": "Sleek woodne Stools",
+          "img": "https://plus.unsplash.com/premium_photo-1682582241642-d16c69cc087c?q=80&w=1991&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
           "price": 12000,
           "description": "This is a soft nice chair.",
           "rating": 4.5
         },
         {
           "id": "p24",
-          "name": "Elegant Dining Chair",
-          "img": "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RWxlZ2FudCUyMERpbmluZyUyMENoYWlyfGVufDB8fDB8fHww",
+          "name": "Black Reading Chair",
+          "img": "https://images.unsplash.com/photo-1489269637500-aa0e75768394?q=80&w=2041&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
           "price": 16000,
           "description": "This is a nice comfortable chair.",
           "rating": 4.2
         },
         {
           "id": "p25",
-          "name": "Reading Chairs",
-          "img": "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "name": "Reading Chairs for Old",
+          "img": "https://images.unsplash.com/photo-1648994517760-19afc8c7ba00?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
           "price": 15000,
           "description": "This is a nice reading chair.",
           "rating": 4.8
         },
         {
           "id": "p26",
-          "name": "Sleek Bar Stools",
-          "img": "https://images.unsplash.com/photo-1519947486511-46149fa0a254?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8U2xlZWslMjBCYXIlMjBjaGFpcnxlbnwwfHwwfHx8MA%3D%3D",
+          "name": "Rich Table",
+          "img": "https://images.unsplash.com/photo-1616046229478-9901c5536a45?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
           "price": 12000,
           "description": "This is a soft nice chair.",
           "rating": 4.5
         },
         {
           "id": "p27",
-          "name": "Elegant Dining Chair",
-          "img": "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RWxlZ2FudCUyMERpbmluZyUyMENoYWlyfGVufDB8fDB8fHww",
+          "name": "Book Shelf",
+          "img": "https://images.unsplash.com/photo-1532372320572-cda25653a26d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
           "price": 16000,
           "description": "This is a nice comfortable chair.",
           "rating": 4.2
         },
         {
           "id": "p28",
-          "name": "Reading Chairs",
-          "img": "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "name": "Bed side Table",
+          "img": "https://images.unsplash.com/photo-1600607687126-8a3414349a51?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
           "price": 15000,
           "description": "This is a nice reading chair.",
           "rating": 4.8
         },
         {
           "id": "p29",
-          "name": "Sleek Bar Stools",
-          "img": "https://images.unsplash.com/photo-1519947486511-46149fa0a254?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8U2xlZWslMjBCYXIlMjBjaGFpcnxlbnwwfHwwfHx8MA%3D%3D",
+          "name": "Woodne Chair With Stool",
+          "img": "https://plus.unsplash.com/premium_photo-1682582241577-8f289ee34ca8?q=80&w=1978&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
           "price": 12000,
           "description": "This is a soft nice chair.",
           "rating": 4.5
         },
         {
           "id": "p30",
-          "name": "Elegant Dining Chair",
-          "img": "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RWxlZ2FudCUyMERpbmluZyUyMENoYWlyfGVufDB8fDB8fHww",
+          "name": "Wooden Stool",
+          "img": "https://images.unsplash.com/photo-1540809799-5da9372c3f64?q=80&w=1924&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
           "price": 16000,
           "description": "This is a nice comfortable chair.",
           "rating": 4.2
@@ -247,11 +247,13 @@
     {
       "card2": [
         {
+          "id": "c1",
           "title": "COMFORTABLE CHAIR ",
           "description": "As domed as in former times of great vows, the trioll Road, with its expected clarinet.",
           "image": "https://i.postimg.cc/DZwZw6yT/chair1.png"
         },
         {
+          "id":"c2",
           "title": "LUXERIOUS CHAIR ",
           "description": "As opulent as in former days of grandeur, the luxurious estate, with its expected extravagance.",
           "image": "https://i.postimg.cc/Wbk4zhjh/chair2.png"

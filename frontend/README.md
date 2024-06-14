@@ -19,47 +19,42 @@ Axios (or any other HTTP client library)
 (Optional) Backend API or mock data
 
 ## Getting Started
-Prerequisites
+
+# Prerequisites
+
 Node.js and npm (or yarn) installed on your machine
-Installation
-Clone the repository:
-git clone https://github.com/your-username/e-commerce-furnik.git
 
+# Installation
 
+1. Clone the repository: 
+```git clone https://github.com/vedantyede/E-commerce-Furnik.git```
 
-Navigate to the project directory:
-cd e-commerce-furnik
+2. Navigate to the project directory:
+```cd frontend```
 
+3. Install dependencies:
+```npm install```
 
+# Development
 
-Install dependencies:
-npm install
-
-
-
-Development
 To start the development server, run:
-
-npm run dev
-
-
-
+```npm run dev```
 This will start the Vite development server and open the application in your default browser.
 
-Building for Production
+# Building for Production
+
 To build the application for production, run:
-
-npm run build
-
-
-
+```npm run build```
 This will create an optimized production build in the dist directory.
 
-Deployment
+# Deployment
+
 You can deploy the production build to a hosting service of your choice. For example, you can use services like Netlify, Vercel, or GitHub Pages.
 
-Contributing
+# Contributing
+
 Contributions are welcome! If you find any issues or want to add new features, please open an issue or submit a pull request.
 
-License
-This project is licensed under the MIT License.
+# License
+
+Will add licesnse later

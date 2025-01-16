@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className="hidden md:flex items-center text-xs">
           <div
             onClick={() => {
-              navigate("/E-commerce-Furnik/");
+              navigate("/");
             }}
             className="transform mx-2 cursor-pointer transition duration-300 hover:scale-125 rounded-full border-slate-300 p-1 px-3"
           >
@@ -57,7 +57,7 @@ const Navbar = () => {
           </div>
           <div
             onClick={() => {
-              navigate("/E-commerce-Furnik/cart");
+              navigate("/cart");
             }}
             className="transform mx-2 cursor-pointer transition duration-300 hover:scale-125 rounded-full border-slate-300 p-1 px-3"
           >
@@ -91,7 +91,7 @@ const Navbar = () => {
         <div
           className=""
           onClick={() => {
-            navigate("/E-commerce-Furnik/");
+            navigate("/");
           }}
         >
           HOME
@@ -102,7 +102,7 @@ const Navbar = () => {
         <div className="">SHOP</div>
         <div
             onClick={() => {
-              navigate("/E-commerce-Furnik/cart");
+              navigate("/cart");
             }}
             className=""
           >

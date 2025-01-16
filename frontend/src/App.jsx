@@ -15,12 +15,13 @@ function App() {
   return (
     <div className="font-roboto">
       <Header />
+
       <BrowserRouter>
         <CartProvider>
           <Navbar />
           <Routes>
             <Route
-              path="/E-commerce-Furnik/"
+              path="/"
               element={
                 <Suspense fallback={<Loading />}>
                   <Home />
@@ -28,10 +29,21 @@ function App() {
               }
             />
             <Route
-              path="/E-commerce-Furnik/product/:id"
-              element={<ProductPage />}
+              path="/product/:id"
+              element={
+                <Suspense fallback={<Loading />}>
+                  <ProductPage />
+                </Suspense>
+              }
             />
-            <Route path="/E-commerce-Furnik/cart" element={<Cart />} />
+            <Route
+              path="/cart"
+              element={
+                <Suspense fallback={<Loading />}>
+                  <Cart />
+                </Suspense>
+              }
+            />
           </Routes>
         </CartProvider>
       </BrowserRouter>

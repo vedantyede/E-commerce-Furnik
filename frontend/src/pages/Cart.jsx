@@ -26,7 +26,7 @@ const Cart = () => {
             />
           ))}
         </div>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center">
           {cart.length !== 0 ? (
             <CartPriceComponent
               subTotalPrice={subTotalPrice}

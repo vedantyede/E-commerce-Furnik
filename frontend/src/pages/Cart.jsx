@@ -1,39 +1,42 @@
-import React from "react";
+import CartPriceComponent from "../components/CartPriceComponent";
+import CartProductList from "../components/CartProductList";
+import EmptyCartDisclamer from "../components/EmptyCartDisclamer";
 import { useCart } from "../context/Context";
 
 const Cart = () => {
-  const { cart } = useCart();
+  const {
+    cart,
+    subTotalPrice,
+    deliveryPrice,
+    totalPrice,
+    addtoCart,
+    removeItem,
+  } = useCart();
   return (
-    <div className=" w-full ">
-      {cart.length === 0 ? (
-        <div className="flex flex-col items-center justify-center m-10 p-10">
-          <div className="flex flex-col items-center justify-center">
-            <span className="material-symbols-outlined">shopping_bag</span>
-            <span className="text-2xl font-bold">Your Cart is Empty</span>
-          </div>
-        </div>
-      ) : (
-        <></>
-      )}
-      <div className="flex flex-col items-center my-2">
-        {cart.map((item) => (
-          <div
-            key={item.id}
-            className="flex w-11/12 h-60 items-center justify-around border border-slate-300 rounded-xl"
-          >
-            <img
-              className="w-40 h-56 object-cover rounded-lg"
-              src={item.img}
-              alt={item.name}
+    <div className="w-full ">
+      {cart.length === 0 ? <EmptyCartDisclamer /> : <></>}
+      <div className="flex flex-col-reverse md:flex-row justify-center w-full">
+        <div className="flex flex-col items-center gap-6 m-6">
+          {cart.map((item) => (
+            <CartProductList
+              addtoCart={addtoCart}
+              removeItem={removeItem}
+              key={item.id}
+              item={item}
             />
-            <div className="">
-              <div className="text-xl font-bold">{item.name}</div>
-              <div className="text-sm">{item.description}</div>
-            </div>
-            <div className="text-lg font-bold">${item.price}</div>
-            <div className="text-sm">{item.rating}</div>
-          </div>
-        ))}
+          ))}
+        </div>
+        <div className="flex justify-center items-center">
+          {cart.length !== 0 ? (
+            <CartPriceComponent
+              subTotalPrice={subTotalPrice}
+              deliveryPrice={deliveryPrice}
+              totalPrice={totalPrice}
+            />
+          ) : (
+            ""
+          )}
+        </div>
       </div>
     </div>
   );

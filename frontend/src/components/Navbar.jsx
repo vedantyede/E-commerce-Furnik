@@ -1,9 +1,12 @@
-import React from "react";
 import { useNavigate } from "react-router-dom";
 import Logo from "../assets/shop-store-logo.png";
+import { useCart } from "../context/Context";
+import { useState } from "react";
 
 const Navbar = () => {
   const navigate = useNavigate();
+  const [show, setShow] = useState(false);
+  const { cart } = useCart();
   return (
     <div className="m-0 p-0 relative bg-slate-100">
       <div className="flex md:justify-around items-center h-20 w-full">
@@ -16,7 +19,7 @@ const Navbar = () => {
             onClick={() => {
               navigate("/E-commerce-Furnik/");
             }}
-            className="transform mx-2 cursor-pointer transition duration-500 hover:scale-125 rounded-full border-slate-300 p-1 px-3"
+            className="transform mx-2 cursor-pointer transition duration-300 hover:scale-125 rounded-full border-slate-300 p-1 px-3"
           >
             HOME
           </div>
@@ -24,7 +27,7 @@ const Navbar = () => {
             onClick={() => {
               alert("Work in Progress");
             }}
-            className="transform mx-2 cursor-pointer transition duration-500 hover:scale-125 rounded-full border-slate-300 p-1 px-3"
+            className="transform mx-2 cursor-pointer transition duration-300 hover:scale-125 rounded-full border-slate-300 p-1 px-3"
           >
             FEATURES
           </div>
@@ -32,7 +35,7 @@ const Navbar = () => {
             onClick={() => {
               alert("Work in Progress");
             }}
-            className="transform mx-2 cursor-pointer transition duration-500 hover:scale-125 rounded-full border-slate-300 p-1 px-3"
+            className="transform mx-2 cursor-pointer transition duration-300 hover:scale-125 rounded-full border-slate-300 p-1 px-3"
           >
             SERVICES
           </div>
@@ -40,7 +43,7 @@ const Navbar = () => {
             onClick={() => {
               alert("Work in Progress");
             }}
-            className="transform mx-2 cursor-pointer transition duration-500 hover:scale-125 rounded-full border-slate-300 p-1 px-3"
+            className="transform mx-2 cursor-pointer transition duration-300 hover:scale-125 rounded-full border-slate-300 p-1 px-3"
           >
             PROJECTS
           </div>
@@ -48,7 +51,7 @@ const Navbar = () => {
             onClick={() => {
               alert("Work in Progress");
             }}
-            className="transform mx-2 cursor-pointer transition duration-500 hover:scale-125 rounded-full border-slate-300 p-1 px-3"
+            className="transform mx-2 cursor-pointer transition duration-300 hover:scale-125 rounded-full border-slate-300 p-1 px-3"
           >
             SHOP
           </div>
@@ -56,18 +59,62 @@ const Navbar = () => {
             onClick={() => {
               navigate("/E-commerce-Furnik/cart");
             }}
-            className="transform mx-2 cursor-pointer transition duration-500 hover:scale-125 rounded-full border-slate-300 p-1 px-3"
+            className="transform mx-2 cursor-pointer transition duration-300 hover:scale-125 rounded-full border-slate-300 p-1 px-3"
           >
-            CART
+            {cart.length > 0 ? (
+              <span className="flex justify-center items-center text-xs text-white absolute border rounded-full bg-red-600 w-4 h-4 -right-1 -top-1">
+                {cart.length}
+              </span>
+            ) : (
+              ""
+            )}
+            <span>CART</span>
           </div>
         </div>
         <div className="hidden md:flex">
-          {/* <span class="material-symbols-outlined">search</span> */}
           <input type="text" className="border-0 rounded" />
         </div>
-        <div className="absolute right-0 p-6 md:hidden">
-          <span class="material-symbols-outlined">menu</span>
+        <div className="absolute right-0 p-6 md:hidden cursor-pointer">
+          <span
+            onClick={() => setShow(!show)}
+            className="material-symbols-outlined"
+          >
+            menu
+          </span>
         </div>
+      </div>
+      <div
+        className={`flex flex-col justify-center transform ease-in-out transition-all duration-300 ${
+          show ? "flex" : "hidden"
+        } items-center md:hidden gap-1`}
+      >
+        <div
+          className=""
+          onClick={() => {
+            navigate("/E-commerce-Furnik/");
+          }}
+        >
+          HOME
+        </div>
+        <div className="">FEATURES</div>
+        <div className="">SERVICES</div>
+        <div className="">PROJECTS</div>
+        <div className="">SHOP</div>
+        <div
+            onClick={() => {
+              navigate("/E-commerce-Furnik/cart");
+            }}
+            className=""
+          >
+            {cart.length > 0 ? (
+              <span className="flex justify-center items-center text-xs text-white absolute border rounded-full bg-red-600 w-4 h-4 right-40 bottom-3">
+                {cart.length}
+              </span>
+            ) : (
+              ""
+            )}
+            <span>CART</span>
+          </div>
       </div>
     </div>
   );

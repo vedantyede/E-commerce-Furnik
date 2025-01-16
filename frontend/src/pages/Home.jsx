@@ -1,7 +1,6 @@
-import React from "react";
 import productData from "../data/product.json";
-import Card from "../components/Card";
-import Card2 from "../components/Card2";
+import ProductCard from "../components/ProductCard";
+import HeaderCard from "../components/HeaderCard";
 
 const Home = () => {
   const chairs = productData.product[0].chair;
@@ -11,13 +10,13 @@ const Home = () => {
     <div className="max-w-screen-2xl mx-auto">
       <div className="flex flex-wrap justify-center w-full">
         {items.map((item) => (
-          <Card2 data={item} key={item.id} />
+          <HeaderCard data={item} key={item.id} />
         ))}
       </div>
 
       <div className="flex flex-wrap justify-center w-full">
         {chairs.map((item) => (
-          <Card data={item} key={item.id} />
+          <ProductCard data={item} key={item.id} />
         ))}
       </div>
     </div>

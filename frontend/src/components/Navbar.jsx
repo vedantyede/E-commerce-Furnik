@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import Logo from "../assets/shop-store-logo.png";
-import { useCart } from "../context/Context";
+import { useCart } from "../context/CartContext";
 import { useState } from "react";
 
 const Navbar = () => {
@@ -25,7 +25,7 @@ const Navbar = () => {
           </div>
           <div
             onClick={() => {
-              alert("Work in Progress");
+              navigate("/features");
             }}
             className="transform mx-2 cursor-pointer transition duration-300 hover:scale-125 rounded-full border-slate-300 p-1 px-3"
           >
@@ -33,7 +33,7 @@ const Navbar = () => {
           </div>
           <div
             onClick={() => {
-              alert("Work in Progress");
+              navigate("/services");
             }}
             className="transform mx-2 cursor-pointer transition duration-300 hover:scale-125 rounded-full border-slate-300 p-1 px-3"
           >
@@ -41,15 +41,15 @@ const Navbar = () => {
           </div>
           <div
             onClick={() => {
-              alert("Work in Progress");
+              navigate("/products");
             }}
             className="transform mx-2 cursor-pointer transition duration-300 hover:scale-125 rounded-full border-slate-300 p-1 px-3"
           >
-            PROJECTS
+            PRODUCTS
           </div>
           <div
             onClick={() => {
-              alert("Work in Progress");
+              navigate("/shop");
             }}
             className="transform mx-2 cursor-pointer transition duration-300 hover:scale-125 rounded-full border-slate-300 p-1 px-3"
           >

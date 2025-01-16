@@ -15,8 +15,8 @@ const CartProductList = ({ item, addtoCart, removeItem }) => {
       </div>
       <div className="flex flex-col justify-between w-1/2">
         <div className="">
-          <div className="font-bold">{item.name}</div>
-          <div className="text-xs font-semibold">{item.description}</div>
+          <div className="">{item.name}</div>
+          <div className="text-xs text-gray-700">{item.description}</div>
         </div>
         <div className="flex flex-col gap-1">
           <div className="flex items-center">
@@ -24,14 +24,14 @@ const CartProductList = ({ item, addtoCart, removeItem }) => {
             <span className="flex items-center gap-x-1 border-slate-300 rounded-md px-2 p-1">
               <button
                 onClick={() => removeItem(item.id)}
-                className="flex items-center justify-center font-bold border rounded-full w-6 h-6"
+                className="flex items-center justify-center border rounded-full w-6 h-6"
               >
                 -
               </button>
-              <span className="font-bold">{item.quantity}</span>
+              <span className="">{item.quantity}</span>
               <button
                 onClick={() => addtoCart(item)}
-                className="flex items-center justify-center font-bold border rounded-full w-6 h-6"
+                className="flex items-center justify-center border rounded-full w-6 h-6"
               >
                 +
               </button>

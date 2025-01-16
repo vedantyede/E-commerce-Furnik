@@ -1,7 +1,7 @@
 import CartPriceComponent from "../components/CartPriceComponent";
 import CartProductList from "../components/CartProductList";
 import EmptyCartDisclamer from "../components/EmptyCartDisclamer";
-import { useCart } from "../context/Context";
+import { useCart } from "../context/CartContext";
 
 const Cart = () => {
   const {

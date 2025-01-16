@@ -96,25 +96,53 @@ const Navbar = () => {
         >
           HOME
         </div>
-        <div className="">FEATURES</div>
-        <div className="">SERVICES</div>
-        <div className="">PROJECTS</div>
-        <div className="">SHOP</div>
         <div
-            onClick={() => {
-              navigate("/cart");
-            }}
-            className=""
-          >
-            {cart.length > 0 ? (
-              <span className="flex justify-center items-center text-xs text-white absolute border rounded-full bg-red-600 w-4 h-4 right-40 bottom-3">
-                {cart.length}
-              </span>
-            ) : (
-              ""
-            )}
-            <span>CART</span>
-          </div>
+          onClick={() => {
+            navigate("/features");
+          }}
+          className=""
+        >
+          FEATURES
+        </div>
+        <div
+          onClick={() => {
+            navigate("/services");
+          }}
+          className=""
+        >
+          SERVICES
+        </div>
+        <div
+          onClick={() => {
+            navigate("/products");
+          }}
+          className=""
+        >
+          PRODUCTS
+        </div>
+        <div
+          onClick={() => {
+            navigate("/shop");
+          }}
+          className=""
+        >
+          SHOP
+        </div>
+        <div
+          onClick={() => {
+            navigate("/cart");
+          }}
+          className=""
+        >
+          {cart.length > 0 ? (
+            <span className="flex justify-center items-center text-xs text-white absolute border rounded-full bg-red-600 w-4 h-4 right-40 bottom-3">
+              {cart.length}
+            </span>
+          ) : (
+            ""
+          )}
+          <span>CART</span>
+        </div>
       </div>
     </div>
   );

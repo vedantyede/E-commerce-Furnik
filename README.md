@@ -7,9 +7,7 @@ E-commerce Furnik is a modern and responsive e-commerce web application built wi
 - **Product Catalog**: Browse through a wide range of furniture products with detailed descriptions, images, and pricing information.
 - **Shopping Cart**: Add products to the shopping cart, update quantities, and proceed to checkout.
 - **Checkout Process**: Securely enter shipping and payment information to complete the purchase.
-- **User Authentication**: Create an account, log in, and manage your profile and order history.
 - **Responsive Design**: The application is optimized for various screen sizes, providing a consistent experience across desktop and mobile devices.
-- **Admin Panel**: (Optional) Manage products, orders, and user accounts from an admin dashboard.
 
 ## Technologies Used
 
@@ -18,7 +16,7 @@ E-commerce Furnik is a modern and responsive e-commerce web application built wi
 - **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
 - **React Router**: For handling client-side routing in the application.
 - **Axios** or **Fetch API**: For making HTTP requests to the backend API.
-- **React Context API** or **Redux**: For state management across the application.
+- **React Context API**: For state management across the application.
 - **ESLint**: For enforcing code quality and consistency.
 
 ## Getting Started

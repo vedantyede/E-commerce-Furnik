@@ -1,9 +1,8 @@
 import productData from "../data/product.json";
 import ProductCard from "../components/ProductCard";
 import HeaderCard from "../components/HeaderCard";
-import { useProduct } from "../context/ProductContext";
 
-const Home = () => {
+const Home:React.FC = () => {
   const chairs = productData.product[0].chair;
   const items = productData.product[1].card2;
 

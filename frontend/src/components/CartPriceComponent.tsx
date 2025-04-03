@@ -1,4 +1,3 @@
-import React from "react";
 
 const CartPriceComponent = ({ subTotalPrice, deliveryPrice, totalPrice }) => {
   return (
@@ -25,6 +24,6 @@ const CartPriceComponent = ({ subTotalPrice, deliveryPrice, totalPrice }) => {
       </div>
     </div>
   );
-};
+}
 
 export default CartPriceComponent;
